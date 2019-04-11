@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import api from '../../Services/api';
 
+import "./styles.css";
 export default class Product extends Component{
     state = {
         product: {},   
